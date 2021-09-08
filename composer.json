@@ -1,0 +1,31 @@
+{
+    "name": "coderjerk/dropbox-php-sdk",
+    "description": "Dropbox PHP API V2 SDK (Unofficial)",
+    "keywords": [
+        "dropbox",
+        "sdk",
+        "api",
+        "client",
+        "php",
+        "unofficial"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Coderjerk",
+            "email": "dandevine0@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~6.0|~7.0",
+        "tightenco/collect": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Coderjerk\\Dropbox\\": "src/Dropbox"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    }
+}
